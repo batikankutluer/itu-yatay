@@ -1,0 +1,954 @@
+[
+  {
+    "program": "İnşaat Fakültesi",
+    "year": "",
+    "quota": "",
+    "placed": "",
+    "maxScore": "",
+    "minScore": ""
+  },
+  {
+    "program": "İnşaat Mühendisliği (% 30 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "5",
+    "placed": "5",
+    "maxScore": "0.8398",
+    "minScore": "0.78949"
+  },
+  {
+    "program": "İnşaat Mühendisliği (% 30 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "0",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "İnşaat Mühendisliği (% 100 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "4",
+    "placed": "4",
+    "maxScore": "0.8816",
+    "minScore": "0.79856"
+  },
+  {
+    "program": "İnşaat Mühendisliği (% 100 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "0",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Geomatik Mühendisliği  (% 30 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "5",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Geomatik Mühendisliği  (% 30 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "0",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Geomatik  Mühendisliği(% 100 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "3",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Geomatik  Mühendisliği(% 100 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "0",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Çevre Mühendisliği  (% 30 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "6",
+    "placed": "6",
+    "maxScore": "0.83746",
+    "minScore": "0.78477"
+  },
+  {
+    "program": "Çevre Mühendisliği  (% 30 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "2",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Çevre Mühendisliği (% 100 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "4",
+    "placed": "4",
+    "maxScore": "0.86513",
+    "minScore": "0.84639"
+  },
+  {
+    "program": "Çevre Mühendisliği (% 100 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "1",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Mimarlık Fakültesi",
+    "year": "",
+    "quota": "",
+    "placed": "",
+    "maxScore": "",
+    "minScore": ""
+  },
+  {
+    "program": "Mimarlık  (% 30 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "3",
+    "placed": "3",
+    "maxScore": "0.91428",
+    "minScore": "0.89014"
+  },
+  {
+    "program": "Mimarlık  (% 30 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "2",
+    "placed": "2",
+    "maxScore": "0.91031",
+    "minScore": "0.88564"
+  },
+  {
+    "program": "Mimarlık  (% 100 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "2",
+    "placed": "2",
+    "maxScore": "0.89816",
+    "minScore": "0.87443"
+  },
+  {
+    "program": "Mimarlık  (% 100 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "1",
+    "placed": "1",
+    "maxScore": "0.87033",
+    "minScore": "0.87033"
+  },
+  {
+    "program": "Şehir ve Bölge Planlaması  (% 30 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "3",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Şehir ve Bölge Planlaması  (% 30 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "3",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Şehir ve Bölge Planlaması  (% 100 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "3",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Şehir ve Bölge Planlaması  (% 100 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "3",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Endüstriyel Tasarım (%100 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "1",
+    "placed": "1",
+    "maxScore": "0.92208",
+    "minScore": "0.92208"
+  },
+  {
+    "program": "Endüstriyel Tasarım (%100 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "1",
+    "placed": "1",
+    "maxScore": "0.84376",
+    "minScore": "0.84376"
+  },
+  {
+    "program": "İç Mimarlık  (% 30 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "2",
+    "placed": "2",
+    "maxScore": "0.89537",
+    "minScore": "0.85614"
+  },
+  {
+    "program": "İç Mimarlık  (% 30 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "1",
+    "placed": "1",
+    "maxScore": "0.86567",
+    "minScore": "0.86567"
+  },
+  {
+    "program": "Peyzaj Mimarlığı  (% 100 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "3",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Peyzaj Mimarlığı  (% 100 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "1",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Makina Fakültesi",
+    "year": "",
+    "quota": "",
+    "placed": "",
+    "maxScore": "",
+    "minScore": ""
+  },
+  {
+    "program": "Makina Mühendisliği  (% 30 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "8",
+    "placed": "8",
+    "maxScore": "0.93458",
+    "minScore": "0.88548"
+  },
+  {
+    "program": "Makina Mühendisliği  (% 30 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "1",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Elektrik - Elektronik Fakültesi",
+    "year": "",
+    "quota": "",
+    "placed": "",
+    "maxScore": "",
+    "minScore": ""
+  },
+  {
+    "program": "Elektronik ve Haberleşme Mühendisliği  (% 30 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "4",
+    "placed": "4",
+    "maxScore": "0.9898",
+    "minScore": "0.95066"
+  },
+  {
+    "program": "Elektronik ve Haberleşme Mühendisliği  (% 30 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "6",
+    "placed": "5",
+    "maxScore": "0.91866",
+    "minScore": "0.82531"
+  },
+  {
+    "program": "Elektronik ve Haberleşme Mühendisliği (% 100 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "3",
+    "placed": "3",
+    "maxScore": "0.96405",
+    "minScore": "0.95311"
+  },
+  {
+    "program": "Elektronik ve Haberleşme Mühendisliği (% 100 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "4",
+    "placed": "3",
+    "maxScore": "0.92845",
+    "minScore": "0.72231"
+  },
+  {
+    "program": "Elektrik Mühendisliği  (% 30 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "6",
+    "placed": "6",
+    "maxScore": "0.93464",
+    "minScore": "0.89925"
+  },
+  {
+    "program": "Elektrik Mühendisliği  (% 30 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "3",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Elektrik Mühendisliği  (% 100 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "3",
+    "placed": "3",
+    "maxScore": "0.92297",
+    "minScore": "0.88852"
+  },
+  {
+    "program": "Elektrik Mühendisliği  (% 100 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "2",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Kontrol ve Otomasyon Mühendisliği  (% 30 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "3",
+    "placed": "3",
+    "maxScore": "0.96968",
+    "minScore": "0.95444"
+  },
+  {
+    "program": "Kontrol ve Otomasyon Mühendisliği  (% 30 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "3",
+    "placed": "1",
+    "maxScore": "0.85342",
+    "minScore": "0.85342"
+  },
+  {
+    "program": "Kontrol ve Otomasyon Mühendisliği  (% 100 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "2",
+    "placed": "2",
+    "maxScore": "0.94504",
+    "minScore": "0.94056"
+  },
+  {
+    "program": "Kontrol ve Otomasyon Mühendisliği  (% 100 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "2",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Maden Fakültesi",
+    "year": "",
+    "quota": "",
+    "placed": "",
+    "maxScore": "",
+    "minScore": ""
+  },
+  {
+    "program": "Maden Mühendisliği  (% 30 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "4",
+    "placed": "1",
+    "maxScore": "0.92318",
+    "minScore": "0.92318"
+  },
+  {
+    "program": "Maden Mühendisliği  (% 30 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "2",
+    "placed": "1",
+    "maxScore": "0.80798",
+    "minScore": "0.80798"
+  },
+  {
+    "program": "Jeoloji Mühendisliği  (% 30 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "4",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Jeoloji Mühendisliği  (% 30 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "2",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Jeofizik Mühendisliği  (% 30 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "3",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Jeofizik Mühendisliği  (% 30 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "2",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Petrol ve Doğalgaz Mühendisliği  (% 100 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "3",
+    "placed": "3",
+    "maxScore": "0.9196",
+    "minScore": "0.86296"
+  },
+  {
+    "program": "Petrol ve Doğalgaz Mühendisliği  (% 100 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "1",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Cevher Hazırlama Mühendisliği  (% 30 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "0",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Cevher Hazırlama Mühendisliği  (% 30 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "0",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Kimya - Metalurji Fakültesi",
+    "year": "",
+    "quota": "",
+    "placed": "",
+    "maxScore": "",
+    "minScore": ""
+  },
+  {
+    "program": "Kimya Mühendisliği  (% 30 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "3",
+    "placed": "3",
+    "maxScore": "0.9073",
+    "minScore": "0.87434"
+  },
+  {
+    "program": "Kimya Mühendisliği  (% 30 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "3",
+    "placed": "2",
+    "maxScore": "0.8609",
+    "minScore": "0.7993"
+  },
+  {
+    "program": "Metalurji ve Malzeme Mühendisliği  (% 30 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "5",
+    "placed": "5",
+    "maxScore": "0.89962",
+    "minScore": "0.88451"
+  },
+  {
+    "program": "Metalurji ve Malzeme Mühendisliği  (% 30 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "0",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Metalurji ve Malzeme Mühendisliği  (% 100 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "5",
+    "placed": "5",
+    "maxScore": "0.87326",
+    "minScore": "0.86102"
+  },
+  {
+    "program": "Metalurji ve Malzeme Mühendisliği  (% 100 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "0",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Gıda Mühendisliği  (% 30 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "2",
+    "placed": "2",
+    "maxScore": "0.86428",
+    "minScore": "0.85965"
+  },
+  {
+    "program": "Gıda Mühendisliği  (% 30 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "0",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "İşletme Fakültesi",
+    "year": "",
+    "quota": "",
+    "placed": "",
+    "maxScore": "",
+    "minScore": ""
+  },
+  {
+    "program": "İşletme Mühendisliği  (% 100 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "6",
+    "placed": "6",
+    "maxScore": "0.94648",
+    "minScore": "0.91797"
+  },
+  {
+    "program": "İşletme Mühendisliği  (% 100 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "0",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Endüstri Mühendisliği  (% 30 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "3",
+    "placed": "3",
+    "maxScore": "0.97448",
+    "minScore": "0.94119"
+  },
+  {
+    "program": "Endüstri Mühendisliği  (% 30 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "0",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Endüstri Mühendisliği  (% 100 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "3",
+    "placed": "3",
+    "maxScore": "0.9568",
+    "minScore": "0.94709"
+  },
+  {
+    "program": "Endüstri Mühendisliği  (% 100 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "0",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Ekonomi (% 100 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "3",
+    "placed": "3",
+    "maxScore": "0.86413",
+    "minScore": "0.84087"
+  },
+  {
+    "program": "Ekonomi (% 100 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "2",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Gemi İnşaatı ve Deniz Bilimleri Fakültesi",
+    "year": "",
+    "quota": "",
+    "placed": "",
+    "maxScore": "",
+    "minScore": ""
+  },
+  {
+    "program": "Gemi İnşaatı ve Gemi Makineleri Mühendisliği  (% 30 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "2",
+    "placed": "2",
+    "maxScore": "0.88975",
+    "minScore": "0.86836"
+  },
+  {
+    "program": "Gemi İnşaatı ve Gemi Makineleri Mühendisliği  (% 30 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "2",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Gemi ve Deniz Teknolojisi Mühendisliği  (% 30 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "0",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Gemi ve Deniz Teknolojisi Mühendisliği  (% 30 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "0",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Fen - Edebiyat Fakültesi",
+    "year": "",
+    "quota": "",
+    "placed": "",
+    "maxScore": "",
+    "minScore": ""
+  },
+  {
+    "program": "Matematik Mühendisliği  (% 30 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "1",
+    "placed": "1",
+    "maxScore": "0.95257",
+    "minScore": "0.95257"
+  },
+  {
+    "program": "Matematik Mühendisliği  (% 30 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "0",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Fizik Mühendisliği  (% 30 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "3",
+    "placed": "3",
+    "maxScore": "0.99156",
+    "minScore": "0.8975"
+  },
+  {
+    "program": "Fizik Mühendisliği  (% 30 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "3",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Kimya  (% 30 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "2",
+    "placed": "2",
+    "maxScore": "0.94509",
+    "minScore": "0.85878"
+  },
+  {
+    "program": "Kimya  (% 30 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "2",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Moleküler Biyoloji ve Genetik  (% 100 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "1",
+    "placed": "1",
+    "maxScore": "0.82861",
+    "minScore": "0.82861"
+  },
+  {
+    "program": "Moleküler Biyoloji ve Genetik  (% 100 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "1",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Uçak ve Uzay Bilimleri Fakültesi",
+    "year": "",
+    "quota": "",
+    "placed": "",
+    "maxScore": "",
+    "minScore": ""
+  },
+  {
+    "program": "Uçak Mühendisliği  (% 30 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "2",
+    "placed": "2",
+    "maxScore": "0.97152",
+    "minScore": "0.95509"
+  },
+  {
+    "program": "Uçak Mühendisliği  (% 30 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "2",
+    "placed": "2",
+    "maxScore": "0.78628",
+    "minScore": "0.76243"
+  },
+  {
+    "program": "Uzay Mühendisliği  (% 100 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "3",
+    "placed": "3",
+    "maxScore": "0.92911",
+    "minScore": "0.91092"
+  },
+  {
+    "program": "Uzay Mühendisliği  (% 100 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "0",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Meteoroloji Mühendisliği  (% 30 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "3",
+    "placed": "3",
+    "maxScore": "0.8719",
+    "minScore": "0.84781"
+  },
+  {
+    "program": "Meteoroloji Mühendisliği  (% 30 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "0",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Türk Musikisi Devlet Konservatuvarı",
+    "year": "",
+    "quota": "",
+    "placed": "",
+    "maxScore": "",
+    "minScore": ""
+  },
+  {
+    "program": "Ses Eğitimi",
+    "year": "3.Yarıyıl",
+    "quota": "1",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Ses Eğitimi",
+    "year": "5.Yarıyıl",
+    "quota": "0",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Bestecilik",
+    "year": "3.Yarıyıl",
+    "quota": "1",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Bestecilik",
+    "year": "5.Yarıyıl",
+    "quota": "0",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Müzik Teknolojisi",
+    "year": "3.Yarıyıl",
+    "quota": "1",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Müzik Teknolojisi",
+    "year": "5.Yarıyıl",
+    "quota": "0",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Müzikoloji",
+    "year": "3.Yarıyıl",
+    "quota": "1",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Müzikoloji",
+    "year": "5.Yarıyıl",
+    "quota": "0",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Türk Halk Oyunları",
+    "year": "3.Yarıyıl",
+    "quota": "1",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Türk Halk Oyunları",
+    "year": "5.Yarıyıl",
+    "quota": "0",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Denizcilik Fakültesi",
+    "year": "",
+    "quota": "",
+    "placed": "",
+    "maxScore": "",
+    "minScore": ""
+  },
+  {
+    "program": "Gemi Makinaları İşletme Mühendisliği  (% 30 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "3",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Gemi Makinaları İşletme Mühendisliği  (% 30 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "2",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Deniz Ulaştırma İşletme Mühendisliği  (% 30 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "3",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Deniz Ulaştırma İşletme Mühendisliği  (% 30 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "2",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Tekstil Teknolojileri ve Tasarımı Fakültesi",
+    "year": "",
+    "quota": "",
+    "placed": "",
+    "maxScore": "",
+    "minScore": ""
+  },
+  {
+    "program": "Tekstil Mühendisliği  (% 100 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "3",
+    "placed": "3",
+    "maxScore": "0.86799",
+    "minScore": "0.84079"
+  },
+  {
+    "program": "Tekstil Mühendisliği  (% 100 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "0",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "Bilgisayar ve Bilişim Fakültesi",
+    "year": "",
+    "quota": "",
+    "placed": "",
+    "maxScore": "",
+    "minScore": ""
+  },
+  {
+    "program": "Bilgisayar Mühendisliği  (% 100 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "3",
+    "placed": "3",
+    "maxScore": "0.98955",
+    "minScore": "0.98209"
+  },
+  {
+    "program": "Bilgisayar Mühendisliği  (% 100 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "1",
+    "placed": "1",
+    "maxScore": "0.85938",
+    "minScore": "0.85938"
+  },
+  {
+    "program": "Yapay Zeka ve Veri Mühendisliği (% 100 İngilizce)",
+    "year": "3.Yarıyıl",
+    "quota": "1",
+    "placed": "1",
+    "maxScore": "0.98554",
+    "minScore": "0.98554"
+  },
+  {
+    "program": "Yapay Zeka ve Veri Mühendisliği (% 100 İngilizce)",
+    "year": "5.Yarıyıl",
+    "quota": "1",
+    "placed": "0",
+    "maxScore": "-",
+    "minScore": "-"
+  },
+  {
+    "program": "İTÜ-KKTC Eğitim-Araştırma Yerleşkeleri",
+    "year": "",
+    "quota": "",
+    "placed": "",
+    "maxScore": "",
+    "minScore": ""
+  }
+]

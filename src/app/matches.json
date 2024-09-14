@@ -1,0 +1,1459 @@
+[
+  {
+    "programAdi": "Bilgisayar Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "",
+    "sadeceIngilizceVar": true,
+    "ingilizceYksPuani": "536,3077",
+    "yil": {
+      "3.Yarıyıl": {
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "3",
+          "yerlesen": "3",
+          "maxSkor": "0.98955",
+          "minSkor": "0.98209"
+        }
+      },
+      "5.Yarıyıl": {
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "1",
+          "yerlesen": "1",
+          "maxSkor": "0.85938",
+          "minSkor": "0.85938"
+        }
+      }
+    }
+  },
+  {
+    "programAdi": "Yapay Zeka ve Veri Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "",
+    "sadeceIngilizceVar": true,
+    "ingilizceYksPuani": "533,26505",
+    "yil": {
+      "3.Yarıyıl": {
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "1",
+          "yerlesen": "1",
+          "maxSkor": "0.98554",
+          "minSkor": "0.98554"
+        }
+      },
+      "5.Yarıyıl": {
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "1",
+          "yerlesen": "0",
+          "maxSkor": "-",
+          "minSkor": "-"
+        }
+      }
+    }
+  },
+  {
+    "programAdi": "Elektronik ve Haberleşme Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "522,83058",
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "529,41707",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "4",
+        "yerlesen": "4",
+        "maxSkor": "0.9898",
+        "minSkor": "0.95066",
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "3",
+          "yerlesen": "3",
+          "maxSkor": "0.96405",
+          "minSkor": "0.95311"
+        }
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "6",
+        "yerlesen": "5",
+        "maxSkor": "0.91866",
+        "minSkor": "0.82531",
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "4",
+          "yerlesen": "3",
+          "maxSkor": "0.92845",
+          "minSkor": "0.72231"
+        }
+      }
+    }
+  },
+  {
+    "programAdi": "Uçak Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "526,27204",
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "2",
+        "yerlesen": "2",
+        "maxSkor": "0.97152",
+        "minSkor": "0.95509"
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "2",
+        "yerlesen": "2",
+        "maxSkor": "0.78628",
+        "minSkor": "0.76243"
+      }
+    }
+  },
+  {
+    "programAdi": "Endüstri Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "519,84288",
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "524,32042",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "3",
+        "yerlesen": "3",
+        "maxSkor": "0.97448",
+        "minSkor": "0.94119",
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "3",
+          "yerlesen": "3",
+          "maxSkor": "0.9568",
+          "minSkor": "0.94709"
+        }
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "0",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-",
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "0",
+          "yerlesen": "0",
+          "maxSkor": "-",
+          "minSkor": "-"
+        }
+      }
+    }
+  },
+  {
+    "programAdi": "Uzay Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "",
+    "sadeceIngilizceVar": true,
+    "ingilizceYksPuani": "518,39828",
+    "yil": {
+      "3.Yarıyıl": {
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "3",
+          "yerlesen": "3",
+          "maxSkor": "0.92911",
+          "minSkor": "0.91092"
+        }
+      },
+      "5.Yarıyıl": {
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "0",
+          "yerlesen": "0",
+          "maxSkor": "-",
+          "minSkor": "-"
+        }
+      }
+    }
+  },
+  {
+    "programAdi": "Robotik ve Otonom Sistemleri Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "516,79053",
+    "ingilizceVar": true,
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "518,01614",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "",
+        "yerlesen": "",
+        "maxSkor": "",
+        "minSkor": "",
+        "ingilizceVar": false,
+        "ingilizce": {
+          "kontenjan": "",
+          "maxSkor": "",
+          "minSkor": ""
+        }
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "",
+        "yerlesen": "",
+        "maxSkor": "",
+        "minSkor": "",
+        "ingilizceVar": false,
+        "ingilizce": {
+          "kontenjan": "",
+          "maxSkor": "",
+          "minSkor": ""
+        }
+      }
+    }
+  },
+  {
+    "programAdi": "Matematik Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "517,55503",
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "1",
+        "yerlesen": "1",
+        "maxSkor": "0.95257",
+        "minSkor": "0.95257"
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "0",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-"
+      }
+    }
+  },
+  {
+    "programAdi": "Siber Güvenlik Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "",
+    "ingilizceVar": true,
+    "sadeceIngilizceVar": true,
+    "ingilizceYksPuani": "515,79972",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "",
+        "yerlesen": "",
+        "maxSkor": "",
+        "minSkor": "",
+        "ingilizceVar": false,
+        "ingilizce": {
+          "kontenjan": "",
+          "maxSkor": "",
+          "minSkor": ""
+        }
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "",
+        "yerlesen": "",
+        "maxSkor": "",
+        "minSkor": "",
+        "ingilizceVar": false,
+        "ingilizce": {
+          "kontenjan": "",
+          "maxSkor": "",
+          "minSkor": ""
+        }
+      }
+    }
+  },
+  {
+    "programAdi": "İşletme Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "",
+    "sadeceIngilizceVar": true,
+    "ingilizceYksPuani": "513,52841",
+    "yil": {
+      "3.Yarıyıl": {
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "6",
+          "yerlesen": "6",
+          "maxSkor": "0.94648",
+          "minSkor": "0.91797"
+        }
+      },
+      "5.Yarıyıl": {
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "0",
+          "yerlesen": "0",
+          "maxSkor": "-",
+          "minSkor": "-"
+        }
+      }
+    }
+  },
+  {
+    "programAdi": "Elektrik Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "507,81846",
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "510,86388",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "6",
+        "yerlesen": "6",
+        "maxSkor": "0.93464",
+        "minSkor": "0.89925",
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "3",
+          "yerlesen": "3",
+          "maxSkor": "0.92297",
+          "minSkor": "0.88852"
+        }
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "3",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-",
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "2",
+          "yerlesen": "0",
+          "maxSkor": "-",
+          "minSkor": "-"
+        }
+      }
+    }
+  },
+  {
+    "programAdi": "Makine Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "508,63864",
+    "ingilizceVar": false,
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "",
+        "yerlesen": "",
+        "maxSkor": "",
+        "minSkor": "",
+        "ingilizceVar": false,
+        "ingilizce": {
+          "kontenjan": "",
+          "maxSkor": "",
+          "minSkor": ""
+        }
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "",
+        "yerlesen": "",
+        "maxSkor": "",
+        "minSkor": "",
+        "ingilizceVar": false,
+        "ingilizce": {
+          "kontenjan": "",
+          "maxSkor": "",
+          "minSkor": ""
+        }
+      }
+    }
+  },
+  {
+    "programAdi": "Veri Bilimi ve Analitiği",
+    "fakulte": false,
+    "yksTabanPuan": "",
+    "ingilizceVar": true,
+    "sadeceIngilizceVar": true,
+    "ingilizceYksPuani": "504,33451",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "",
+        "yerlesen": "",
+        "maxSkor": "",
+        "minSkor": "",
+        "ingilizceVar": false,
+        "ingilizce": {
+          "kontenjan": "",
+          "maxSkor": "",
+          "minSkor": ""
+        }
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "",
+        "yerlesen": "",
+        "maxSkor": "",
+        "minSkor": "",
+        "ingilizceVar": false,
+        "ingilizce": {
+          "kontenjan": "",
+          "maxSkor": "",
+          "minSkor": ""
+        }
+      }
+    }
+  },
+  {
+    "programAdi": "Metalurji ve Malzeme Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "490,58027",
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "495,02299",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "5",
+        "yerlesen": "5",
+        "maxSkor": "0.89962",
+        "minSkor": "0.88451",
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "5",
+          "yerlesen": "5",
+          "maxSkor": "0.87326",
+          "minSkor": "0.86102"
+        }
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "0",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-",
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "0",
+          "yerlesen": "0",
+          "maxSkor": "-",
+          "minSkor": "-"
+        }
+      }
+    }
+  },
+  {
+    "programAdi": "Kimya Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "492,4426",
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "3",
+        "yerlesen": "3",
+        "maxSkor": "0.9073",
+        "minSkor": "0.87434"
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "3",
+        "yerlesen": "2",
+        "maxSkor": "0.8609",
+        "minSkor": "0.7993"
+      }
+    }
+  },
+  {
+    "programAdi": "Gemi İnşaatı ve Gemi Makineleri Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "486,45833",
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "2",
+        "yerlesen": "2",
+        "maxSkor": "0.88975",
+        "minSkor": "0.86836"
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "2",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-"
+      }
+    }
+  },
+  {
+    "programAdi": "Fizik Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "483,12088",
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "3",
+        "yerlesen": "3",
+        "maxSkor": "0.99156",
+        "minSkor": "0.8975"
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "3",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-"
+      }
+    }
+  },
+  {
+    "programAdi": "Moleküler Biyoloji ve Genetik",
+    "fakulte": false,
+    "yksTabanPuan": "",
+    "sadeceIngilizceVar": true,
+    "ingilizceYksPuani": "479,58318",
+    "yil": {
+      "3.Yarıyıl": {
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "1",
+          "yerlesen": "1",
+          "maxSkor": "0.82861",
+          "minSkor": "0.82861"
+        }
+      },
+      "5.Yarıyıl": {
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "1",
+          "yerlesen": "0",
+          "maxSkor": "-",
+          "minSkor": "-"
+        }
+      }
+    }
+  },
+  {
+    "programAdi": "Gemi ve Deniz Teknolojisi Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "463,62883",
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "0",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-"
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "0",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-"
+      }
+    }
+  },
+  {
+    "programAdi": "Mimarlık",
+    "fakulte": false,
+    "yksTabanPuan": "448,09306",
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "462,62975",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "3",
+        "yerlesen": "3",
+        "maxSkor": "0.91428",
+        "minSkor": "0.89014",
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "2",
+          "yerlesen": "2",
+          "maxSkor": "0.89816",
+          "minSkor": "0.87443"
+        }
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "2",
+        "yerlesen": "2",
+        "maxSkor": "0.91031",
+        "minSkor": "0.88564",
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "1",
+          "yerlesen": "1",
+          "maxSkor": "0.87033",
+          "minSkor": "0.87033"
+        }
+      }
+    }
+  },
+  {
+    "programAdi": "İnşaat Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "437,87862",
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "460,25531",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "5",
+        "yerlesen": "5",
+        "maxSkor": "0.8398",
+        "minSkor": "0.78949",
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "4",
+          "yerlesen": "4",
+          "maxSkor": "0.8816",
+          "minSkor": "0.79856"
+        }
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "0",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-",
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "0",
+          "yerlesen": "0",
+          "maxSkor": "-",
+          "minSkor": "-"
+        }
+      }
+    }
+  },
+  {
+    "programAdi": "Tekstil Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "",
+    "sadeceIngilizceVar": true,
+    "ingilizceYksPuani": "447,81947",
+    "yil": {
+      "3.Yarıyıl": {
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "3",
+          "yerlesen": "3",
+          "maxSkor": "0.86799",
+          "minSkor": "0.84079"
+        }
+      },
+      "5.Yarıyıl": {
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "0",
+          "yerlesen": "0",
+          "maxSkor": "-",
+          "minSkor": "-"
+        }
+      }
+    }
+  },
+  {
+    "programAdi": "Petrol ve Doğalgaz Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "",
+    "sadeceIngilizceVar": true,
+    "ingilizceYksPuani": "445,20194",
+    "yil": {
+      "3.Yarıyıl": {
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "3",
+          "yerlesen": "3",
+          "maxSkor": "0.9196",
+          "minSkor": "0.86296"
+        }
+      },
+      "5.Yarıyıl": {
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "1",
+          "yerlesen": "0",
+          "maxSkor": "-",
+          "minSkor": "-"
+        }
+      }
+    }
+  },
+  {
+    "programAdi": "Gemi Makineleri İşletme Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "443,89739",
+    "ingilizceVar": false,
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "",
+        "yerlesen": "",
+        "maxSkor": "",
+        "minSkor": "",
+        "ingilizceVar": false,
+        "ingilizce": {
+          "kontenjan": "",
+          "maxSkor": "",
+          "minSkor": ""
+        }
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "",
+        "yerlesen": "",
+        "maxSkor": "",
+        "minSkor": "",
+        "ingilizceVar": false,
+        "ingilizce": {
+          "kontenjan": "",
+          "maxSkor": "",
+          "minSkor": ""
+        }
+      }
+    }
+  },
+  {
+    "programAdi": "Endüstriyel Tasarım",
+    "fakulte": false,
+    "yksTabanPuan": "",
+    "sadeceIngilizceVar": true,
+    "ingilizceYksPuani": "443,27708",
+    "yil": {
+      "3.Yarıyıl": {
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "1",
+          "yerlesen": "1",
+          "maxSkor": "0.92208",
+          "minSkor": "0.92208"
+        }
+      },
+      "5.Yarıyıl": {
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "1",
+          "yerlesen": "1",
+          "maxSkor": "0.84376",
+          "minSkor": "0.84376"
+        }
+      }
+    }
+  },
+  {
+    "programAdi": "Kimya",
+    "fakulte": false,
+    "yksTabanPuan": "437,94028",
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "2",
+        "yerlesen": "2",
+        "maxSkor": "0.94509",
+        "minSkor": "0.85878"
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "2",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-"
+      }
+    }
+  },
+  {
+    "programAdi": "Deniz Ulaştırma İşletme Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "436,15913",
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "3",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-"
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "2",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-"
+      }
+    }
+  },
+  {
+    "programAdi": "Gıda Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "432,43606",
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "2",
+        "yerlesen": "2",
+        "maxSkor": "0.86428",
+        "minSkor": "0.85965"
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "0",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-"
+      }
+    }
+  },
+  {
+    "programAdi": "Çevre Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "422,30497",
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "430,28816",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "6",
+        "yerlesen": "6",
+        "maxSkor": "0.83746",
+        "minSkor": "0.78477",
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "4",
+          "yerlesen": "4",
+          "maxSkor": "0.86513",
+          "minSkor": "0.84639"
+        }
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "2",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-",
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "1",
+          "yerlesen": "0",
+          "maxSkor": "-",
+          "minSkor": "-"
+        }
+      }
+    }
+  },
+  {
+    "programAdi": "İklim Bilimi ve Meteoroloji Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "417,86283",
+    "ingilizceVar": false,
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "",
+        "yerlesen": "",
+        "maxSkor": "",
+        "minSkor": "",
+        "ingilizceVar": false,
+        "ingilizce": {
+          "kontenjan": "",
+          "maxSkor": "",
+          "minSkor": ""
+        }
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "",
+        "yerlesen": "",
+        "maxSkor": "",
+        "minSkor": "",
+        "ingilizceVar": false,
+        "ingilizce": {
+          "kontenjan": "",
+          "maxSkor": "",
+          "minSkor": ""
+        }
+      }
+    }
+  },
+  {
+    "programAdi": "İç Mimarlık",
+    "fakulte": false,
+    "yksTabanPuan": "408,94598",
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "2",
+        "yerlesen": "2",
+        "maxSkor": "0.89537",
+        "minSkor": "0.85614"
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "1",
+        "yerlesen": "1",
+        "maxSkor": "0.86567",
+        "minSkor": "0.86567"
+      }
+    }
+  },
+  {
+    "programAdi": "Maden Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "408,27262",
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "4",
+        "yerlesen": "1",
+        "maxSkor": "0.92318",
+        "minSkor": "0.92318"
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "2",
+        "yerlesen": "1",
+        "maxSkor": "0.80798",
+        "minSkor": "0.80798"
+      }
+    }
+  },
+  {
+    "programAdi": "Harita Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "390,0292",
+    "ingilizceVar": true,
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "400,56837",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "",
+        "yerlesen": "",
+        "maxSkor": "",
+        "minSkor": "",
+        "ingilizceVar": false,
+        "ingilizce": {
+          "kontenjan": "",
+          "maxSkor": "",
+          "minSkor": ""
+        }
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "",
+        "yerlesen": "",
+        "maxSkor": "",
+        "minSkor": "",
+        "ingilizceVar": false,
+        "ingilizce": {
+          "kontenjan": "",
+          "maxSkor": "",
+          "minSkor": ""
+        }
+      }
+    }
+  },
+  {
+    "programAdi": "Cevher Hazırlama Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "392,79571",
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "0",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-"
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "0",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-"
+      }
+    }
+  },
+  {
+    "programAdi": "Jeoloji Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "392,16172",
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "4",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-"
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "2",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-"
+      }
+    }
+  },
+  {
+    "programAdi": "Jeofizik Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "389,72976",
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "3",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-"
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "2",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-"
+      }
+    }
+  },
+  {
+    "programAdi": "Peyzaj Mimarlığı",
+    "fakulte": false,
+    "yksTabanPuan": "",
+    "sadeceIngilizceVar": true,
+    "ingilizceYksPuani": "375,38029",
+    "yil": {
+      "3.Yarıyıl": {
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "3",
+          "yerlesen": "0",
+          "maxSkor": "-",
+          "minSkor": "-"
+        }
+      },
+      "5.Yarıyıl": {
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "1",
+          "yerlesen": "0",
+          "maxSkor": "-",
+          "minSkor": "-"
+        }
+      }
+    }
+  },
+  {
+    "programAdi": "Şehir ve Bölge Planlama",
+    "fakulte": false,
+    "yksTabanPuan": "368,06968",
+    "ingilizceVar": true,
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "374,09303",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "",
+        "yerlesen": "",
+        "maxSkor": "",
+        "minSkor": "",
+        "ingilizceVar": false,
+        "ingilizce": {
+          "kontenjan": "",
+          "maxSkor": "",
+          "minSkor": ""
+        }
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "",
+        "yerlesen": "",
+        "maxSkor": "",
+        "minSkor": "",
+        "ingilizceVar": false,
+        "ingilizce": {
+          "kontenjan": "",
+          "maxSkor": "",
+          "minSkor": ""
+        }
+      }
+    }
+  },
+  {
+    "programAdi": "Ekonomi",
+    "fakulte": false,
+    "yksTabanPuan": "",
+    "sadeceIngilizceVar": true,
+    "ingilizceYksPuani": "475,94136",
+    "yil": {
+      "3.Yarıyıl": {
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "3",
+          "yerlesen": "3",
+          "maxSkor": "0.86413",
+          "minSkor": "0.84087"
+        }
+      },
+      "5.Yarıyıl": {
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "2",
+          "yerlesen": "0",
+          "maxSkor": "-",
+          "minSkor": "-"
+        }
+      }
+    }
+  },
+  {
+    "programAdi": "Siber Güvenlik Analistliği ve Operatörlüğü",
+    "fakulte": false,
+    "yksTabanPuan": "456,51172",
+    "ingilizceVar": false,
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "",
+        "yerlesen": "",
+        "maxSkor": "",
+        "minSkor": "",
+        "ingilizceVar": false,
+        "ingilizce": {
+          "kontenjan": "",
+          "maxSkor": "",
+          "minSkor": ""
+        }
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "",
+        "yerlesen": "",
+        "maxSkor": "",
+        "minSkor": "",
+        "ingilizceVar": false,
+        "ingilizce": {
+          "kontenjan": "",
+          "maxSkor": "",
+          "minSkor": ""
+        }
+      }
+    }
+  },
+  {
+    "programAdi": "İnşaat Fakültesi",
+    "fakulte": true
+  },
+  {
+    "programAdi": "Geomatik Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "",
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "5",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-"
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "0",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-"
+      }
+    }
+  },
+  {
+    "programAdi": "Geomatik  Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "",
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "",
+    "yil": {
+      "3.Yarıyıl": {
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "3",
+          "yerlesen": "0",
+          "maxSkor": "-",
+          "minSkor": "-"
+        }
+      },
+      "5.Yarıyıl": {
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "0",
+          "yerlesen": "0",
+          "maxSkor": "-",
+          "minSkor": "-"
+        }
+      }
+    }
+  },
+  {
+    "programAdi": "Mimarlık Fakültesi",
+    "fakulte": true
+  },
+  {
+    "programAdi": "Şehir ve Bölge Planlaması",
+    "fakulte": false,
+    "yksTabanPuan": "",
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "3",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-",
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "3",
+          "yerlesen": "0",
+          "maxSkor": "-",
+          "minSkor": "-"
+        }
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "3",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-",
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "3",
+          "yerlesen": "0",
+          "maxSkor": "-",
+          "minSkor": "-"
+        }
+      }
+    }
+  },
+  {
+    "programAdi": "Makina Fakültesi",
+    "fakulte": true
+  },
+  {
+    "programAdi": "Makina Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "",
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "8",
+        "yerlesen": "8",
+        "maxSkor": "0.93458",
+        "minSkor": "0.88548"
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "1",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-"
+      }
+    }
+  },
+  {
+    "programAdi": "Elektrik - Elektronik Fakültesi",
+    "fakulte": true
+  },
+  {
+    "programAdi": "Kontrol ve Otomasyon Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "",
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "3",
+        "yerlesen": "3",
+        "maxSkor": "0.96968",
+        "minSkor": "0.95444",
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "2",
+          "yerlesen": "2",
+          "maxSkor": "0.94504",
+          "minSkor": "0.94056"
+        }
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "3",
+        "yerlesen": "1",
+        "maxSkor": "0.85342",
+        "minSkor": "0.85342",
+        "ingilizceVar": true,
+        "ingilizce": {
+          "kontenjan": "2",
+          "yerlesen": "0",
+          "maxSkor": "-",
+          "minSkor": "-"
+        }
+      }
+    }
+  },
+  {
+    "programAdi": "Maden Fakültesi",
+    "fakulte": true
+  },
+  {
+    "programAdi": "Kimya - Metalurji Fakültesi",
+    "fakulte": true
+  },
+  {
+    "programAdi": "İşletme Fakültesi",
+    "fakulte": true
+  },
+  {
+    "programAdi": "Gemi İnşaatı ve Deniz Bilimleri Fakültesi",
+    "fakulte": true
+  },
+  {
+    "programAdi": "Fen - Edebiyat Fakültesi",
+    "fakulte": true
+  },
+  {
+    "programAdi": "Uçak ve Uzay Bilimleri Fakültesi",
+    "fakulte": true
+  },
+  {
+    "programAdi": "Meteoroloji Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "",
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "3",
+        "yerlesen": "3",
+        "maxSkor": "0.8719",
+        "minSkor": "0.84781"
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "0",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-"
+      }
+    }
+  },
+  {
+    "programAdi": "Türk Musikisi Devlet Konservatuvarı",
+    "fakulte": true
+  },
+  {
+    "programAdi": "Ses Eğitimi",
+    "fakulte": false,
+    "yksTabanPuan": "",
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "1",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-"
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "0",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-"
+      }
+    }
+  },
+  {
+    "programAdi": "Bestecilik",
+    "fakulte": false,
+    "yksTabanPuan": "",
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "1",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-"
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "0",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-"
+      }
+    }
+  },
+  {
+    "programAdi": "Müzik Teknolojisi",
+    "fakulte": false,
+    "yksTabanPuan": "",
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "1",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-"
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "0",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-"
+      }
+    }
+  },
+  {
+    "programAdi": "Müzikoloji",
+    "fakulte": false,
+    "yksTabanPuan": "",
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "1",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-"
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "0",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-"
+      }
+    }
+  },
+  {
+    "programAdi": "Türk Halk Oyunları",
+    "fakulte": false,
+    "yksTabanPuan": "",
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "1",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-"
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "0",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-"
+      }
+    }
+  },
+  {
+    "programAdi": "Denizcilik Fakültesi",
+    "fakulte": true
+  },
+  {
+    "programAdi": "Gemi Makinaları İşletme Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": "",
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuani": "",
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "3",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-"
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "2",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-"
+      }
+    }
+  },
+  {
+    "programAdi": "Tekstil Teknolojileri ve Tasarımı Fakültesi",
+    "fakulte": true
+  },
+  {
+    "programAdi": "Bilgisayar ve Bilişim Fakültesi",
+    "fakulte": true
+  }
+]
