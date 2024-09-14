@@ -17,18 +17,21 @@ export default function Home() {
 
   return (
     <div className="container mx-auto px-4 py-8 bg-slate-600 min-h-screen">
-      <h1 className="text-3xl font-bold mb-6 text-amber-400 text-center">
+      <h1 className="text-4xl font-bold font-mono mb-6 text-amber-400 text-center">
         İTÜ GPA Hesaplama
       </h1>
-      <form onSubmit={handleSubmit} className="mb-8 flex justify-center">
+      <form
+        onSubmit={handleSubmit}
+        className="mb-8 flex justify-center bg-slate-700 rounded-lg shadow-md p-12"
+      >
         <input
           type="number"
           min="0"
           max="560"
           value={userYKS}
           onChange={(e) => setUserYKS(e.target.value)}
-          placeholder="Enter a value (0-560)"
-          className="w-48 border text-black border-gray-300 rounded px-4 py-2 mr-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          placeholder="YKS puanınızı giriniz."
+          className="w-56 border text-black border-gray-300 rounded px-4 py-2 mr-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
           required
         />
         <button
@@ -41,7 +44,7 @@ export default function Home() {
           Process
         </button>
       </form>
-      {showResults && (
+      {showResults ? (
         <div>
           <div className="overflow-x-auto bg-slate-600 rounded-lg shadow-md">
             <table className="min-w-full">
@@ -79,6 +82,14 @@ export default function Home() {
               })}
             </table>
           </div>
+        </div>
+      ) : (
+        <div className="bg-slate-800 rounded-lg shadow-md p-4 flex flex-col items-center">
+          <h1 className="text-red-600 text-center text-5xl pb-2">Dikkat!</h1>
+          <p className="text-amber-200 text-center text-lg p-2">
+            Bu hesaplayıcı prototip aşamasındadır. Bazı veriler hatalı veya
+            yanıltıcı olabilir, son kontrollerinizi kendiniz yapınız.
+          </p>
         </div>
       )}
     </div>
