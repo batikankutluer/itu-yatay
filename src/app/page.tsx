@@ -232,8 +232,8 @@ function RowTemplate({
         <td className="text-gray-800 bg-slate-300 text-center">{yilAdi}</td>
         <td className="text-gray-800 bg-slate-300 text-center">{kontenjan}</td>
         <td className="text-gray-800 bg-slate-300 text-center">{yerlesen}</td>
-        <td className="text-gray-800 bg-slate-300 text-center">{minGPA}</td>
         <td className="text-gray-800 bg-slate-300 text-center">{maxGPA}</td>
+        <td className="text-gray-800 bg-slate-300 text-center">{minGPA}</td>
       </tr>
     </tbody>
   );
