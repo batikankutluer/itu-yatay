@@ -2,9 +2,10 @@
   {
     "programAdi": "Bilgisayar Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "",
+    "yksTabanPuan": [],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "sadeceIngilizceVar": true,
-    "ingilizceYksPuani": "536,3077",
+    "ingilizceYksPuan": ["536.3077", "542.06013", "539.22704", "495.19952"],
     "yil": {
       "3.Yarıyıl": {
         "ingilizceVar": true,
@@ -29,9 +30,10 @@
   {
     "programAdi": "Yapay Zeka ve Veri Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "",
+    "yksTabanPuan": [],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "sadeceIngilizceVar": true,
-    "ingilizceYksPuani": "533,26505",
+    "ingilizceYksPuan": ["533.26505", "539.20241", "536.37088", "486.02770"],
     "yil": {
       "3.Yarıyıl": {
         "ingilizceVar": true,
@@ -56,9 +58,10 @@
   {
     "programAdi": "Elektronik ve Haberleşme Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "522,83058",
+    "yksTabanPuan": ["522.83058", "530.13833", "525.09606", "468.99682"],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "529,41707",
+    "ingilizceYksPuan": ["529.41707", "535.18460", "532.11871", "483.00897"],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "4",
@@ -91,9 +94,10 @@
   {
     "programAdi": "Uçak Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "526,27204",
+    "yksTabanPuan": ["526.27204", "531.59839", "524.25167", "468.63334"],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "",
+    "ingilizceYksPuan": [],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "2",
@@ -112,9 +116,10 @@
   {
     "programAdi": "Endüstri Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "519,84288",
+    "yksTabanPuan": ["519.84288", "529.98076", "523.74226", "462.80752"],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "524,32042",
+    "ingilizceYksPuan": ["524.32042", "534.14396", "528.81826", "473.86016"],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "3",
@@ -147,9 +152,10 @@
   {
     "programAdi": "Uzay Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "",
+    "yksTabanPuan": [],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "sadeceIngilizceVar": true,
-    "ingilizceYksPuani": "518,39828",
+    "ingilizceYksPuan": ["518.39828", "525.34128", "517.40975", "454.29643"],
     "yil": {
       "3.Yarıyıl": {
         "ingilizceVar": true,
@@ -174,10 +180,11 @@
   {
     "programAdi": "Robotik ve Otonom Sistemleri Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "516,79053",
+    "yksTabanPuan": ["516.79053", "524.44174", "516.77022", "451.11459"],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "ingilizceVar": true,
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "518,01614",
+    "ingilizceYksPuan": ["518.01614", "526.31200", "519.53652", "457.84184"],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "",
@@ -208,9 +215,10 @@
   {
     "programAdi": "Matematik Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "517,55503",
+    "yksTabanPuan": ["517.55503", "522.96778", "511.66215", "436.66205"],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "",
+    "ingilizceYksPuan": [],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "1",
@@ -229,10 +237,11 @@
   {
     "programAdi": "Siber Güvenlik Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "",
+    "yksTabanPuan": [],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "ingilizceVar": true,
     "sadeceIngilizceVar": true,
-    "ingilizceYksPuani": "515,79972",
+    "ingilizceYksPuan": ["515.79972", "—", "—", "—"],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "",
@@ -263,9 +272,10 @@
   {
     "programAdi": "İşletme Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "",
+    "yksTabanPuan": [],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "sadeceIngilizceVar": true,
-    "ingilizceYksPuani": "513,52841",
+    "ingilizceYksPuan": ["513.52841", "523.32130", "514.34252", "445.31247"],
     "yil": {
       "3.Yarıyıl": {
         "ingilizceVar": true,
@@ -290,9 +300,10 @@
   {
     "programAdi": "Elektrik Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "507,81846",
+    "yksTabanPuan": ["507.81846", "514.73375", "502.58555", "430.74369"],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "510,86388",
+    "ingilizceYksPuan": ["510.86388", "520.68008", "512.58077", "443.76417"],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "6",
@@ -325,10 +336,11 @@
   {
     "programAdi": "Makine Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "508,63864",
+    "yksTabanPuan": ["508.63864", "515.67219", "507.30000", "440.40845"],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "ingilizceVar": false,
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "",
+    "ingilizceYksPuan": [],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "",
@@ -359,10 +371,11 @@
   {
     "programAdi": "Veri Bilimi ve Analitiği",
     "fakulte": false,
-    "yksTabanPuan": "",
+    "yksTabanPuan": [],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "ingilizceVar": true,
     "sadeceIngilizceVar": true,
-    "ingilizceYksPuani": "504,33451",
+    "ingilizceYksPuan": ["504.33451", "—", "—", "—"],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "",
@@ -393,9 +406,10 @@
   {
     "programAdi": "Metalurji ve Malzeme Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "490,58027",
+    "yksTabanPuan": ["490.58027", "497.81029", "482.01974", "407.04279"],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "495,02299",
+    "ingilizceYksPuan": ["495.02299", "505.75196", "490.83578", "415.49998"],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "5",
@@ -428,9 +442,10 @@
   {
     "programAdi": "Kimya Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "492,4426",
+    "yksTabanPuan": ["492.4426", "501.96303", "487.50891", "413.55053"],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "",
+    "ingilizceYksPuan": [],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "3",
@@ -449,9 +464,10 @@
   {
     "programAdi": "Gemi İnşaatı ve Gemi Makineleri Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "486,45833",
+    "yksTabanPuan": ["486.45833", "491.43774", "477.81642", "402.64094"],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "",
+    "ingilizceYksPuan": [],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "2",
@@ -470,9 +486,10 @@
   {
     "programAdi": "Fizik Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "483,12088",
+    "yksTabanPuan": ["483.12088", "494.36930", "477.85290", "401.39031"],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "",
+    "ingilizceYksPuan": [],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "3",
@@ -491,9 +508,10 @@
   {
     "programAdi": "Moleküler Biyoloji ve Genetik",
     "fakulte": false,
-    "yksTabanPuan": "",
+    "yksTabanPuan": [],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "sadeceIngilizceVar": true,
-    "ingilizceYksPuani": "479,58318",
+    "ingilizceYksPuan": ["479.58318", "500.47543", "496.13795", "420.70682"],
     "yil": {
       "3.Yarıyıl": {
         "ingilizceVar": true,
@@ -518,9 +536,10 @@
   {
     "programAdi": "Gemi ve Deniz Teknolojisi Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "463,62883",
+    "yksTabanPuan": ["463.62883", "454.51600", "430.87314", "359.47652"],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "",
+    "ingilizceYksPuan": [],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "0",
@@ -539,9 +558,10 @@
   {
     "programAdi": "Mimarlık",
     "fakulte": false,
-    "yksTabanPuan": "448,09306",
+    "yksTabanPuan": ["448.09306", "472.04742", "469.75174", "404.67468"],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "462,62975",
+    "ingilizceYksPuan": ["462.62975", "485.23127", "485.78822", "419.09909"],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "3",
@@ -574,9 +594,10 @@
   {
     "programAdi": "İnşaat Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "437,87862",
+    "yksTabanPuan": ["437.87862", "452.46099", "440.81624", "372.40758"],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "460,25531",
+    "ingilizceYksPuan": ["460.25531", "476.08534", "467.11374", "397.81618"],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "5",
@@ -609,9 +630,10 @@
   {
     "programAdi": "Tekstil Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "",
+    "yksTabanPuan": [],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "sadeceIngilizceVar": true,
-    "ingilizceYksPuani": "447,81947",
+    "ingilizceYksPuan": ["447.81947", "474.33188", "464.02787", "391.31936"],
     "yil": {
       "3.Yarıyıl": {
         "ingilizceVar": true,
@@ -636,9 +658,10 @@
   {
     "programAdi": "Petrol ve Doğalgaz Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "",
+    "yksTabanPuan": [],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "sadeceIngilizceVar": true,
-    "ingilizceYksPuani": "445,20194",
+    "ingilizceYksPuan": ["445.20194", "451.07706", "428.21417", "350.99392"],
     "yil": {
       "3.Yarıyıl": {
         "ingilizceVar": true,
@@ -663,10 +686,11 @@
   {
     "programAdi": "Gemi Makineleri İşletme Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "443,89739",
+    "yksTabanPuan": ["443.89739", "459.35746", "444.92616", "370.53073"],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "ingilizceVar": false,
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "",
+    "ingilizceYksPuan": [],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "",
@@ -697,9 +721,10 @@
   {
     "programAdi": "Endüstriyel Tasarım",
     "fakulte": false,
-    "yksTabanPuan": "",
+    "yksTabanPuan": [],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "sadeceIngilizceVar": true,
-    "ingilizceYksPuani": "443,27708",
+    "ingilizceYksPuan": ["443.27708", "466.90285", "463.51345", "390.40696"],
     "yil": {
       "3.Yarıyıl": {
         "ingilizceVar": true,
@@ -724,9 +749,10 @@
   {
     "programAdi": "Kimya",
     "fakulte": false,
-    "yksTabanPuan": "437,94028",
+    "yksTabanPuan": ["437.94028", "460.80478", "450.47952", "375.57694"],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "",
+    "ingilizceYksPuan": [],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "2",
@@ -745,9 +771,10 @@
   {
     "programAdi": "Deniz Ulaştırma İşletme Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "436,15913",
+    "yksTabanPuan": ["436.15913", "455.40168", "442.32802", "363.11913"],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "",
+    "ingilizceYksPuan": [],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "3",
@@ -766,9 +793,10 @@
   {
     "programAdi": "Gıda Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "432,43606",
+    "yksTabanPuan": ["432.43606", "457.60725", "445.95290", "373.49070"],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "",
+    "ingilizceYksPuan": [],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "2",
@@ -787,9 +815,10 @@
   {
     "programAdi": "Çevre Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "422,30497",
+    "yksTabanPuan": ["422.30497", "441.72178", "432.58718", "359.86319"],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "430,28816",
+    "ingilizceYksPuan": ["430.28816", "449.22366", "439.04770", "368.07253"],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "6",
@@ -822,10 +851,11 @@
   {
     "programAdi": "İklim Bilimi ve Meteoroloji Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "417,86283",
+    "yksTabanPuan": ["417.86283", "432.85539", "418.51153", "346.36802"],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "ingilizceVar": false,
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "",
+    "ingilizceYksPuan": [],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "",
@@ -856,9 +886,10 @@
   {
     "programAdi": "İç Mimarlık",
     "fakulte": false,
-    "yksTabanPuan": "408,94598",
+    "yksTabanPuan": ["408.94598", "436.81096", "435.03197", "366.93190"],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "",
+    "ingilizceYksPuan": [],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "2",
@@ -877,9 +908,10 @@
   {
     "programAdi": "Maden Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "408,27262",
+    "yksTabanPuan": ["408.27262", "422.62840", "408.54702", "334.12498"],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "",
+    "ingilizceYksPuan": [],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "4",
@@ -898,10 +930,11 @@
   {
     "programAdi": "Harita Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "390,0292",
+    "yksTabanPuan": ["390.0292", "—", "—", "—"],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "ingilizceVar": true,
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "400,56837",
+    "ingilizceYksPuan": ["400.56837", "—", "—", "—"],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "",
@@ -932,9 +965,10 @@
   {
     "programAdi": "Cevher Hazırlama Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "392,79571",
+    "yksTabanPuan": ["392.79571", "398.68572", "367.60686", "300.67645"],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "",
+    "ingilizceYksPuan": [],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "0",
@@ -953,9 +987,10 @@
   {
     "programAdi": "Jeoloji Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "392,16172",
+    "yksTabanPuan": ["392.16172", "411.51038", "392.14235", "322.02801"],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "",
+    "ingilizceYksPuan": [],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "4",
@@ -974,9 +1009,10 @@
   {
     "programAdi": "Jeofizik Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "389,72976",
+    "yksTabanPuan": ["389.72976", "401.98930", "378.11435", "309.23089"],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "",
+    "ingilizceYksPuan": [],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "3",
@@ -995,9 +1031,10 @@
   {
     "programAdi": "Peyzaj Mimarlığı",
     "fakulte": false,
-    "yksTabanPuan": "",
+    "yksTabanPuan": [],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "sadeceIngilizceVar": true,
-    "ingilizceYksPuani": "375,38029",
+    "ingilizceYksPuan": ["375.38029", "401.10923", "389.34062", "325.67560"],
     "yil": {
       "3.Yarıyıl": {
         "ingilizceVar": true,
@@ -1022,10 +1059,11 @@
   {
     "programAdi": "Şehir ve Bölge Planlama",
     "fakulte": false,
-    "yksTabanPuan": "368,06968",
+    "yksTabanPuan": ["368.06968", "388.55661", "370.76367", "304.43916"],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "ingilizceVar": true,
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "374,09303",
+    "ingilizceYksPuan": ["374.09303", "398.11504", "386.00559", "325.11840"],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "",
@@ -1056,9 +1094,10 @@
   {
     "programAdi": "Ekonomi",
     "fakulte": false,
-    "yksTabanPuan": "",
+    "yksTabanPuan": [],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "sadeceIngilizceVar": true,
-    "ingilizceYksPuani": "475,94136",
+    "ingilizceYksPuan": ["475.94136", "487.49685", "480.66359", "410.84865"],
     "yil": {
       "3.Yarıyıl": {
         "ingilizceVar": true,
@@ -1083,10 +1122,11 @@
   {
     "programAdi": "Siber Güvenlik Analistliği ve Operatörlüğü",
     "fakulte": false,
-    "yksTabanPuan": "456,51172",
+    "yksTabanPuan": ["456.51172", "452.13698", "—", "—"],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
     "ingilizceVar": false,
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "",
+    "ingilizceYksPuan": [],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "",
@@ -1121,9 +1161,10 @@
   {
     "programAdi": "Geomatik Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "",
+    "yksTabanPuan": [],
+    "yksYillar": [],
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "",
+    "ingilizceYksPuan": [],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "5",
@@ -1142,9 +1183,10 @@
   {
     "programAdi": "Geomatik  Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "",
+    "yksTabanPuan": [],
+    "yksYillar": [],
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "",
+    "ingilizceYksPuan": [],
     "yil": {
       "3.Yarıyıl": {
         "ingilizceVar": true,
@@ -1173,9 +1215,10 @@
   {
     "programAdi": "Şehir ve Bölge Planlaması",
     "fakulte": false,
-    "yksTabanPuan": "",
+    "yksTabanPuan": [],
+    "yksYillar": [],
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "",
+    "ingilizceYksPuan": [],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "3",
@@ -1212,9 +1255,10 @@
   {
     "programAdi": "Makina Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "",
+    "yksTabanPuan": [],
+    "yksYillar": [],
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "",
+    "ingilizceYksPuan": [],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "8",
@@ -1237,9 +1281,10 @@
   {
     "programAdi": "Kontrol ve Otomasyon Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "",
+    "yksTabanPuan": [],
+    "yksYillar": [],
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "",
+    "ingilizceYksPuan": [],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "3",
@@ -1296,9 +1341,10 @@
   {
     "programAdi": "Meteoroloji Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "",
+    "yksTabanPuan": [],
+    "yksYillar": [],
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "",
+    "ingilizceYksPuan": [],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "3",
@@ -1321,9 +1367,10 @@
   {
     "programAdi": "Ses Eğitimi",
     "fakulte": false,
-    "yksTabanPuan": "",
+    "yksTabanPuan": [],
+    "yksYillar": [],
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "",
+    "ingilizceYksPuan": [],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "1",
@@ -1342,9 +1389,10 @@
   {
     "programAdi": "Bestecilik",
     "fakulte": false,
-    "yksTabanPuan": "",
+    "yksTabanPuan": [],
+    "yksYillar": [],
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "",
+    "ingilizceYksPuan": [],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "1",
@@ -1363,9 +1411,10 @@
   {
     "programAdi": "Müzik Teknolojisi",
     "fakulte": false,
-    "yksTabanPuan": "",
+    "yksTabanPuan": [],
+    "yksYillar": [],
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "",
+    "ingilizceYksPuan": [],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "1",
@@ -1384,9 +1433,10 @@
   {
     "programAdi": "Müzikoloji",
     "fakulte": false,
-    "yksTabanPuan": "",
+    "yksTabanPuan": [],
+    "yksYillar": [],
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "",
+    "ingilizceYksPuan": [],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "1",
@@ -1405,9 +1455,10 @@
   {
     "programAdi": "Türk Halk Oyunları",
     "fakulte": false,
-    "yksTabanPuan": "",
+    "yksTabanPuan": [],
+    "yksYillar": [],
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "",
+    "ingilizceYksPuan": [],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "1",
@@ -1430,9 +1481,10 @@
   {
     "programAdi": "Gemi Makinaları İşletme Mühendisliği",
     "fakulte": false,
-    "yksTabanPuan": "",
+    "yksTabanPuan": [],
+    "yksYillar": [],
     "sadeceIngilizceVar": false,
-    "ingilizceYksPuani": "",
+    "ingilizceYksPuan": [],
     "yil": {
       "3.Yarıyıl": {
         "kontenjan": "3",

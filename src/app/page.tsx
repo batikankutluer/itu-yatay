@@ -1,12 +1,14 @@
 "use client";
 
-import { useState } from "react";
+import React, { useState } from "react";
 import matches from "./matches.json";
 
 export default function Home() {
   const [userYKS, setUserYKS] = useState("");
   const [results, setResults] = useState<any[]>([]);
+  const [selectedYear, setSelectedYear] = useState("2024");
   const [showResults, setShowResults] = useState(false);
+  const [onlyEnglish, setOnlyEnglish] = useState(false);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -14,6 +16,13 @@ export default function Home() {
     setResults(matches);
     setShowResults(true);
   };
+
+  function handleOnlyEnglish(e: React.MouseEvent) {
+    e.preventDefault();
+    setOnlyEnglish(!onlyEnglish);
+    if (!onlyEnglish) return setResults(matches);
+    setResults(matches.filter((program) => program.sadeceIngilizceVar));
+  }
 
   return (
     <div className="container mx-auto px-4 py-8 bg-slate-600 min-h-screen">
@@ -24,25 +33,44 @@ export default function Home() {
         onSubmit={handleSubmit}
         className="mb-8 flex justify-center bg-slate-700 rounded-lg shadow-md p-12"
       >
-        <input
-          type="number"
-          min="0"
-          max="560"
-          value={userYKS}
-          onChange={(e) => setUserYKS(e.target.value)}
-          placeholder="YKS puanınızı giriniz."
-          className="w-56 border text-black border-gray-300 rounded px-4 py-2 mr-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-          required
-        />
-        <button
-          type="submit"
-          className="bg-slate-800 hover:bg-amber-700 hover:text-amber-400 text-slate-300 font-bold px-6 py-2 rounded transition duration-300"
-          disabled={
-            userYKS === "" || Number(userYKS) < 0 || Number(userYKS) > 560
-          }
-        >
-          Process
-        </button>
+        <div className="min-w-56 flex flex-col text-slate-200 font-bold">
+          <p>YKS Puanın:</p>
+          <input
+            type="number"
+            min="0"
+            max="560"
+            value={userYKS}
+            onChange={(e) => setUserYKS(e.target.value)}
+            placeholder="YKS puanınızı giriniz."
+            className="w-full border text-black border-gray-300 rounded px-4 py-2 mr-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            required
+          />
+
+          <div className="flex justify-between py-2">
+            <div className="flex items-center">
+              <p>Girdiğin Sene:</p>
+            </div>
+            <select
+              onChange={(e) => setSelectedYear(e.target.value)}
+              className="text-black p-2 rounded-sm"
+              required
+            >
+              <option value="2024">2024</option>
+              <option value="2023">2023</option>
+              <option value="2022">2022</option>
+              <option value="2021">2021</option>
+            </select>
+          </div>
+          <button
+            type="submit"
+            className="bg-slate-800 hover:bg-amber-700 hover:text-amber-400 text-slate-300 font-bold px-6 py-2 rounded transition duration-300"
+            disabled={
+              userYKS === "" || Number(userYKS) < 0 || Number(userYKS) > 560
+            }
+          >
+            Process
+          </button>
+        </div>
       </form>
       {showResults ? (
         <div>
@@ -50,8 +78,18 @@ export default function Home() {
             <table className="min-w-full">
               <thead>
                 <tr className="bg-gray-200 text-gray-700 border-2 border-slate-400">
-                  <th className="py-3 px-4 text-left bg-slate-800 text-slate-200">
-                    Program
+                  <th className="flex flex-col md:flex-row justify-between text-center py-3 px-4 md:text-left bg-slate-800 text-slate-200">
+                    <div className="md:flex md:justify-center md:items-center pb-2 md:pb-0">
+                      Program
+                    </div>
+                    <button
+                      onClick={handleOnlyEnglish}
+                      className={`bg-slate-700 p-1 px-2 ${
+                        onlyEnglish ? "text-amber-800" : "text-amber-200"
+                      } hover:text-amber-400 active:text-amber-300 rounded-md`}
+                    >
+                      Sadece İngilizce
+                    </button>
                   </th>
                   <th className="py-3 px-4 text-center">Dönem</th>
                   <th className="py-3 px-4 text-center">Kontenjan</th>
@@ -67,12 +105,14 @@ export default function Home() {
                   <>
                     <Row
                       key={program?.programAdi + "3.Yarıyıl" + index}
+                      selectedYear={selectedYear}
                       program={program}
                       yilAdi="3.Yarıyıl"
                       userYKS={userYKS}
                     />
                     <Row
                       key={program?.programAdi + "5.Yarıyıl" + index}
+                      selectedYear={selectedYear}
                       program={program}
                       yilAdi="5.Yarıyıl"
                       userYKS={userYKS}
@@ -100,10 +140,12 @@ function Row({
   program,
   yilAdi,
   userYKS,
+  selectedYear,
 }: {
   program: any;
   yilAdi: string;
   userYKS: string;
+  selectedYear: string;
 }) {
   let yil = program?.yil[yilAdi];
 
@@ -111,8 +153,12 @@ function Row({
   let yerlesen = yil?.yerlesen || "-";
   let maxSkor = yil?.maxSkor || "-";
   let minSkor = yil?.minSkor || "-";
+  let yksYillar = program?.yksYillar || [];
 
-  let yksTabanPuan = program?.yksTabanPuan.replace(",", ".");
+  let yksTabanPuan =
+    program?.yksTabanPuan[
+      yksYillar.findIndex((puan: string) => puan == selectedYear)
+    ];
 
   let minGPA: any = "-";
   let maxGPA: any = "-";
@@ -138,7 +184,14 @@ function Row({
   }
 
   if (program?.sadeceIngilizceVar)
-    return <RowIngilizce program={program} yilAdi={yilAdi} userYKS={userYKS} />;
+    return (
+      <RowIngilizce
+        selectedYear={selectedYear}
+        program={program}
+        yilAdi={yilAdi}
+        userYKS={userYKS}
+      />
+    );
   return (
     <RowTemplate
       programAdi={program.programAdi}
@@ -156,10 +209,12 @@ function RowIngilizce({
   program,
   yilAdi,
   userYKS,
+  selectedYear,
 }: {
   program: any;
   yilAdi: string;
   userYKS: string;
+  selectedYear: string;
 }) {
   let yil = program?.yil[yilAdi];
 
@@ -167,8 +222,12 @@ function RowIngilizce({
   let yerlesen = yil?.ingilizce?.yerlesen || "-";
   let maxSkor = yil?.ingilizce?.maxSkor || "-";
   let minSkor = yil?.ingilizce?.minSkor || "-";
+  let yksYillar = program?.yksYillar || [];
 
-  let ingilizceYksTaban = program?.ingilizceYksPuani.replace(",", ".");
+  let ingilizceYksTaban =
+    program?.ingilizceYksPuan[
+      yksYillar.findIndex((puan: string) => puan == selectedYear)
+    ];
 
   let minGPA: any = "-";
   let maxGPA: any = "-";
