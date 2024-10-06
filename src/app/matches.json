@@ -334,41 +334,6 @@
     }
   },
   {
-    "programAdi": "Makine Mühendisliği",
-    "fakulte": false,
-    "yksTabanPuan": ["508.63864", "515.67219", "507.30000", "440.40845"],
-    "yksYillar": ["2024", "2023", "2022", "2021"],
-    "ingilizceVar": false,
-    "sadeceIngilizceVar": false,
-    "ingilizceYksPuan": [],
-    "yil": {
-      "3.Yarıyıl": {
-        "kontenjan": "",
-        "yerlesen": "",
-        "maxSkor": "",
-        "minSkor": "",
-        "ingilizceVar": false,
-        "ingilizce": {
-          "kontenjan": "",
-          "maxSkor": "",
-          "minSkor": ""
-        }
-      },
-      "5.Yarıyıl": {
-        "kontenjan": "",
-        "yerlesen": "",
-        "maxSkor": "",
-        "minSkor": "",
-        "ingilizceVar": false,
-        "ingilizce": {
-          "kontenjan": "",
-          "maxSkor": "",
-          "minSkor": ""
-        }
-      }
-    }
-  },
-  {
     "programAdi": "Veri Bilimi ve Analitiği",
     "fakulte": false,
     "yksTabanPuan": [],
@@ -1155,10 +1120,6 @@
     }
   },
   {
-    "programAdi": "İnşaat Fakültesi",
-    "fakulte": true
-  },
-  {
     "programAdi": "Geomatik Mühendisliği",
     "fakulte": false,
     "yksTabanPuan": [],
@@ -1209,10 +1170,6 @@
     }
   },
   {
-    "programAdi": "Mimarlık Fakültesi",
-    "fakulte": true
-  },
-  {
     "programAdi": "Şehir ve Bölge Planlaması",
     "fakulte": false,
     "yksTabanPuan": [],
@@ -1249,36 +1206,6 @@
     }
   },
   {
-    "programAdi": "Makina Fakültesi",
-    "fakulte": true
-  },
-  {
-    "programAdi": "Makina Mühendisliği",
-    "fakulte": false,
-    "yksTabanPuan": [],
-    "yksYillar": [],
-    "sadeceIngilizceVar": false,
-    "ingilizceYksPuan": [],
-    "yil": {
-      "3.Yarıyıl": {
-        "kontenjan": "8",
-        "yerlesen": "8",
-        "maxSkor": "0.93458",
-        "minSkor": "0.88548"
-      },
-      "5.Yarıyıl": {
-        "kontenjan": "1",
-        "yerlesen": "0",
-        "maxSkor": "-",
-        "minSkor": "-"
-      }
-    }
-  },
-  {
-    "programAdi": "Elektrik - Elektronik Fakültesi",
-    "fakulte": true
-  },
-  {
     "programAdi": "Kontrol ve Otomasyon Mühendisliği",
     "fakulte": false,
     "yksTabanPuan": [],
@@ -1313,30 +1240,6 @@
         }
       }
     }
-  },
-  {
-    "programAdi": "Maden Fakültesi",
-    "fakulte": true
-  },
-  {
-    "programAdi": "Kimya - Metalurji Fakültesi",
-    "fakulte": true
-  },
-  {
-    "programAdi": "İşletme Fakültesi",
-    "fakulte": true
-  },
-  {
-    "programAdi": "Gemi İnşaatı ve Deniz Bilimleri Fakültesi",
-    "fakulte": true
-  },
-  {
-    "programAdi": "Fen - Edebiyat Fakültesi",
-    "fakulte": true
-  },
-  {
-    "programAdi": "Uçak ve Uzay Bilimleri Fakültesi",
-    "fakulte": true
   },
   {
     "programAdi": "Meteoroloji Mühendisliği",
@@ -1475,10 +1378,6 @@
     }
   },
   {
-    "programAdi": "Denizcilik Fakültesi",
-    "fakulte": true
-  },
-  {
     "programAdi": "Gemi Makinaları İşletme Mühendisliği",
     "fakulte": false,
     "yksTabanPuan": [],
@@ -1501,11 +1400,26 @@
     }
   },
   {
-    "programAdi": "Tekstil Teknolojileri ve Tasarımı Fakültesi",
-    "fakulte": true
-  },
-  {
-    "programAdi": "Bilgisayar ve Bilişim Fakültesi",
-    "fakulte": true
+    "programAdi": "Makina Mühendisliği",
+    "fakulte": false,
+    "yksTabanPuan": ["508.63864", "515.67219", "507.30000", "440.40845"],
+    "yksYillar": ["2024", "2023", "2022", "2021"],
+    "ingilizceVar": false,
+    "sadeceIngilizceVar": false,
+    "ingilizceYksPuan": [],
+    "yil": {
+      "3.Yarıyıl": {
+        "kontenjan": "8",
+        "yerlesen": "8",
+        "maxSkor": "0.93458",
+        "minSkor": "0.88548"
+      },
+      "5.Yarıyıl": {
+        "kontenjan": "1",
+        "yerlesen": "0",
+        "maxSkor": "-",
+        "minSkor": "-"
+      }
+    }
   }
 ]

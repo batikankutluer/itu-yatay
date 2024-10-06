@@ -7,6 +7,7 @@ export default function Home() {
   const [userYKS, setUserYKS] = useState("");
   const [results, setResults] = useState<any[]>([]);
   const [selectedYear, setSelectedYear] = useState("2024");
+  const [termSelection, setTermSelection] = useState("0");
   const [showResults, setShowResults] = useState(false);
   const [onlyEnglish, setOnlyEnglish] = useState(false);
 
@@ -22,6 +23,11 @@ export default function Home() {
     setOnlyEnglish(!onlyEnglish);
     if (!onlyEnglish) return setResults(matches);
     setResults(matches.filter((program) => program.sadeceIngilizceVar));
+  }
+
+  function handleSelection(e: any) {
+    e.preventDefault();
+    setTermSelection(e.target.value);
   }
 
   return (
@@ -68,7 +74,7 @@ export default function Home() {
               userYKS === "" || Number(userYKS) < 0 || Number(userYKS) > 560
             }
           >
-            Process
+            Sonuçları Al
           </button>
         </div>
       </form>
@@ -78,8 +84,8 @@ export default function Home() {
             <table className="min-w-full">
               <thead>
                 <tr className="bg-gray-200 text-gray-700 border-2 border-slate-400">
-                  <th className="flex flex-col md:flex-row justify-between text-center py-3 px-4 md:text-left bg-slate-800 text-slate-200">
-                    <div className="md:flex md:justify-center md:items-center pb-2 md:pb-0">
+                  <th className="flex flex-col lg:flex-row justify-between text-center py-3 px-4 lg:text-left bg-slate-800 text-slate-200">
+                    <div className="lg:flex lg:justify-center lg:items-center pb-2 lg:pb-0">
                       Program
                     </div>
                     <button
@@ -91,7 +97,26 @@ export default function Home() {
                       Sadece İngilizce
                     </button>
                   </th>
-                  <th className="py-3 px-4 text-center">Dönem</th>
+                  <th className="p-2 lg:p-0">
+                    <select
+                      className="text-center bg-slate-500 text-amber-300 hover:text-amber-200 hover:cursor-pointer shadow-sm rounded-md p-3"
+                      onChange={(e) => handleSelection(e)}
+                    >
+                      <option value="3" className="text-amber-300">
+                        3. Yarıyıl
+                      </option>
+                      <option value="5" className="text-amber-400">
+                        5. Yarıyıl
+                      </option>
+                      <option
+                        value="0"
+                        className="text-slate-200 text-center"
+                        selected
+                      >
+                        Hepsi
+                      </option>
+                    </select>
+                  </th>
                   <th className="py-3 px-4 text-center">Kontenjan</th>
                   <th className="py-3 px-4 text-center">Yerleşen</th>
                   <th className="py-3 px-4 text-center">Max GPA</th>
@@ -109,6 +134,7 @@ export default function Home() {
                       program={program}
                       yilAdi="3.Yarıyıl"
                       userYKS={userYKS}
+                      termSelection={termSelection}
                     />
                     <Row
                       key={program?.programAdi + "5.Yarıyıl" + index}
@@ -116,6 +142,7 @@ export default function Home() {
                       program={program}
                       yilAdi="5.Yarıyıl"
                       userYKS={userYKS}
+                      termSelection={termSelection}
                     />
                   </>
                 );
@@ -141,11 +168,13 @@ function Row({
   yilAdi,
   userYKS,
   selectedYear,
+  termSelection,
 }: {
   program: any;
   yilAdi: string;
   userYKS: string;
   selectedYear: string;
+  termSelection: string;
 }) {
   let yil = program?.yil[yilAdi];
 
@@ -190,6 +219,7 @@ function Row({
         program={program}
         yilAdi={yilAdi}
         userYKS={userYKS}
+        termSelection={termSelection}
       />
     );
   return (
@@ -201,6 +231,7 @@ function Row({
       minGPA={minGPA}
       maxGPA={maxGPA}
       isIngilizce={false}
+      termSelection={termSelection}
     />
   );
 }
@@ -210,11 +241,13 @@ function RowIngilizce({
   yilAdi,
   userYKS,
   selectedYear,
+  termSelection,
 }: {
   program: any;
   yilAdi: string;
   userYKS: string;
   selectedYear: string;
+  termSelection: string;
 }) {
   let yil = program?.yil[yilAdi];
 
@@ -252,6 +285,7 @@ function RowIngilizce({
       yerlesen={yerlesen}
       minGPA={minGPA}
       maxGPA={maxGPA}
+      termSelection={termSelection}
       isIngilizce={true}
     />
   );
@@ -264,6 +298,7 @@ function RowTemplate({
   yerlesen,
   minGPA,
   maxGPA,
+  termSelection,
   isIngilizce,
 }: {
   programAdi: string;
@@ -272,16 +307,19 @@ function RowTemplate({
   yerlesen: string;
   minGPA: string;
   maxGPA: string;
+  termSelection: string;
   isIngilizce: boolean;
 }) {
-  if (minGPA == "-") minGPA = "Girersiniz";
-  else minGPA = minGPA.toString().slice(0, 4);
-  if (maxGPA == "-") maxGPA = "Girersiniz";
-  else maxGPA = maxGPA.toString().slice(0, 4);
+  if (minGPA != "-") minGPA = minGPA.toString().slice(0, 4);
+  if (maxGPA != "-") maxGPA = maxGPA.toString().slice(0, 4);
 
-  if (Number(minGPA) > 4) minGPA = "4>";
+  if (kontenjan == "0" || kontenjan == "-") minGPA = maxGPA = "Açılmamış...";
+  if (kontenjan > yerlesen) minGPA = maxGPA = "Yerleşen yok.";
+
+  if (Number(minGPA) > 4) return;
   if (Number(maxGPA) > 4) maxGPA = "4>";
 
+  if (termSelection != "0") if (yilAdi != `${termSelection}.Yarıyıl`) return;
   return (
     <tbody className="text-gray-600">
       <tr className="bg-gray-100 border-2 border-slate-400">
