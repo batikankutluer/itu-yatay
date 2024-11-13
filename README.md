@@ -16,10 +16,12 @@ Site sizin yerleştiğiniz YKS puanınızı kullanarak, `ITU` tarafından 2024-2
 
 ---
 
-> ### Sürüm: v1.0.1
+> ### Sürüm: v1.0.4
 
 - [x] Sadece ingilizce olan bölümler, filtrelenebiliyor.
 - [x] Makina mühendisliği data sorunu düzeltildi.
-- [x] Yarıyıllara göre filtreleme
+- [x] Yarıyıllara göre filtreleme.
+- [x] Hatalar için email gönderme özelliği getirildi.
+- [x] UI biraz geliştirildi ve versiyonlama sistemi düzeltildi.
 - [ ] Liste son halini aldı.
 - [ ] UI/UX Son halini aldı.
