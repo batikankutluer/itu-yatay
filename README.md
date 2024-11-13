@@ -1,6 +1,7 @@
 # Bu proje `ITU öğrencileri` için yapılmıştır.
+> # Bu site 'Resmi' bir site değildir!
 
-> Dikkat bu site ve program hala **prototip** aşamasındadır!
+> Bu site hala **prototip** aşamasındadır! 🔧
 >
 > Eğer sitedeki verilerde bir sorun varsa çoğunlukla bunun **farkındayız.** Düzeltmek için çabalıyoruz.
 >
