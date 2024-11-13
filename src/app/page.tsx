@@ -3,6 +3,8 @@
 import React, { useState } from "react";
 import matches from "./matches.json";
 
+const version = "v1.0.3";
+
 export default function Home() {
   const [userYKS, setUserYKS] = useState("");
   const [results, setResults] = useState<any[]>([]);
@@ -32,12 +34,12 @@ export default function Home() {
 
   return (
     <div className="container mx-auto px-4 py-8 bg-slate-600 min-h-screen">
-      <h1 className="text-4xl font-bold font-mono mb-6 text-amber-400 text-center">
-        İTÜ Yatay - GPA aracı
+      <h1 className="text-4xl font-bold font-mono mb-6 text-amber-400 text-center select-none">
+        İTÜ Yatay - GPA Aracı
       </h1>
       <form
         onSubmit={handleSubmit}
-        className="mb-8 flex justify-center bg-slate-700 rounded-lg shadow-md p-12"
+        className="mb-8 flex justify-center bg-slate-700 rounded-lg shadow-md p-12 select-none"
       >
         <div className="min-w-56 flex flex-col text-slate-200 font-bold">
           <p>YKS Puanın:</p>
@@ -151,12 +153,27 @@ export default function Home() {
           </div>
         </div>
       ) : (
-        <div className="bg-slate-800 rounded-lg shadow-md p-4 flex flex-col items-center">
+        <div className="bg-slate-800 rounded-lg shadow-md p-4 flex flex-col items-center select-none">
           <h1 className="text-red-600 text-center text-5xl pb-2">Dikkat!</h1>
           <p className="text-amber-200 text-center text-lg p-2">
             Bu hesaplayıcı prototip aşamasındadır. Bazı veriler hatalı veya
             yanıltıcı olabilir, son kontrollerinizi kendiniz yapınız.
           </p>
+          <div className="grid grid-cols-2 select-none">
+            <p className="text-slate-300 text-center text-lg p-2">
+              Geri bildirim için:{" "}
+              <a href="mailto:60034174+batikankutluer@users.noreply.github.com?subject=Sitenizde bir hata buldum.&body=Merhaba Batıkan, yazdığın sitede (itu-yatay.vercel.app) şöyle bir hata buldum:">
+                <button className="p-2 px-3 bg-slate-700 text-slate-300 hover:text-amber-400 text-sm rounded-xl">
+                  Mail için Tıkla!
+                </button>
+              </a>
+            </p>
+            <div className="flex items-center">
+              <p className="p-2 select-none text-slate-400 shadow-sm rounded-md bg-slate-900 shadow-slate-900 text-sm">
+                İTÜ Yatay Geçiş - GPA Hesaplama Aracı {version}
+              </p>
+            </div>
+          </div>
         </div>
       )}
     </div>
