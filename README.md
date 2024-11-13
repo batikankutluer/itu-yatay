@@ -10,13 +10,13 @@
 
 Site sizin yerleştiğiniz YKS puanınızı kullanarak, `ITU` tarafından 2024-2025 öğretim dönemi için açıklanan verileri sizin puanınızla işler ve kolayca **GPA** değeri olarak görüntülemenizi sağlar.
 
-> Geçici olarak şu an domain: [itu-gpa.vercel.app](https://itu-gpa.vercel.app)
+> Geçici olarak şu an domain: [itu-gpa.vercel.app](https://itu-yatay.vercel.app)
 
 ![website görüntüsü](./itu-gpa.png)
 
 ---
 
-> ### Sürüm: v1.0.4
+> ### Sürüm: v1.0.5
 
 - [x] Sadece ingilizce olan bölümler, filtrelenebiliyor.
 - [x] Makina mühendisliği data sorunu düzeltildi.
