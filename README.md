@@ -1,4 +1,5 @@
 # Bu proje `ITU öğrencileri` için yapılmıştır.
+
 > # Bu site 'Resmi' bir site değildir!
 
 > Bu site hala **prototip** aşamasındadır! 🔧
@@ -17,12 +18,13 @@ Site sizin yerleştiğiniz YKS puanınızı kullanarak, `ITU` tarafından 2024-2
 
 ---
 
-> ### Sürüm: v1.0.5
+> ### Sürüm: v1.0.6
 
 - [x] Sadece ingilizce olan bölümler, filtrelenebiliyor.
 - [x] Makina mühendisliği data sorunu düzeltildi.
 - [x] Yarıyıllara göre filtreleme.
 - [x] Hatalar için email gönderme özelliği getirildi.
 - [x] UI biraz geliştirildi ve versiyonlama sistemi düzeltildi.
+- [x] Site Vercel platformunda analitik verileri incelenebilir hale getirildi.
 - [ ] Liste son halini aldı.
 - [ ] UI/UX Son halini aldı.

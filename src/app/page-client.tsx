@@ -160,7 +160,7 @@ export default function App({ version }: { version: string }) {
           <div className="grid grid-cols-2 select-none">
             <p className="text-slate-300 text-center text-lg p-2">
               Geri bildirim için:{" "}
-              <a href="mailto:60034174+batikankutluer@users.noreply.github.com?subject=Sitenizde bir hata buldum.&body=Merhaba Batıkan, yazdığın sitede (itu-yatay.vercel.app) şöyle bir hata buldum:">
+              <a href="mailto:batikankutluer@proton.me?subject=Sitenizde bir hata buldum.&body=Merhaba Batıkan, yazdığın sitede (itu-yatay.vercel.app) şöyle bir hata buldum:">
                 <button className="p-2 px-3 bg-slate-700 text-slate-300 hover:text-amber-400 text-sm rounded-xl">
                   Mail için Tıkla!
                 </button>
