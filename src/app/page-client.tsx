@@ -3,6 +3,9 @@
 import React, { useState } from "react";
 import matches from "./matches.json";
 
+import Snowfall from "react-snowfall";
+import "./scrollbar.css";
+
 export default function App({ version }: { version: string }) {
   const [userYKS, setUserYKS] = useState("");
   const [results, setResults] = useState<any[]>([]);
@@ -31,16 +34,17 @@ export default function App({ version }: { version: string }) {
   }
 
   return (
-    <div className="container mx-auto px-4 py-8 bg-slate-600 min-h-screen">
-      <h1 className="text-4xl font-bold font-mono mb-6 text-amber-400 text-center select-none">
+    <div className="container mx-auto px-4 py-8 bg-red-900 h-full overflow-auto">
+      <Snowfall />
+      <h1 className="2xl:text-6xl text-4xl font-bold font-sans my-4 mb-10 text-red-100 text-center select-none">
         İTÜ Yatay - GPA Aracı
       </h1>
       <form
         onSubmit={handleSubmit}
-        className="mb-8 flex justify-center bg-slate-700 rounded-lg shadow-md p-12 select-none"
+        className="mb-8 flex justify-center bg-green-900 shadow-xl rounded-lg p-12 select-none"
       >
-        <div className="min-w-56 flex flex-col text-slate-200 font-bold">
-          <p>YKS Puanın:</p>
+        <div className="min-w-56 flex flex-col text-green-400 font-extrabold 2xl:text-2xl text-lg">
+          <p className="pb-2">YKS Puanın:</p>
           <input
             type="number"
             min="0"
@@ -48,17 +52,17 @@ export default function App({ version }: { version: string }) {
             value={userYKS}
             onChange={(e) => setUserYKS(e.target.value)}
             placeholder="YKS puanınızı giriniz."
-            className="w-full border text-black border-gray-300 rounded px-4 py-2 mr-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full border text-black border-zinc-300 rounded px-4 py-2 mr-2 placeholder:text-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             required
           />
 
           <div className="flex justify-between py-2">
             <div className="flex items-center">
-              <p>Girdiğin Sene:</p>
+              <p className="pr-2">Girdiğin Sene:</p>
             </div>
             <select
               onChange={(e) => setSelectedYear(e.target.value)}
-              className="text-black p-2 rounded-sm"
+              className="text-black p-2 rounded-sm text-xl"
               required
             >
               <option value="2024">2024</option>
@@ -69,7 +73,7 @@ export default function App({ version }: { version: string }) {
           </div>
           <button
             type="submit"
-            className="bg-slate-800 hover:bg-amber-700 hover:text-amber-400 text-slate-300 font-bold px-6 py-2 rounded transition duration-300"
+            className="bg-green-950 hover:bg-green-700 hover:text-green-200 text-green-300 font-bold px-6 py-2 rounded transition duration-300"
             disabled={
               userYKS === "" || Number(userYKS) < 0 || Number(userYKS) > 560
             }
@@ -80,37 +84,37 @@ export default function App({ version }: { version: string }) {
       </form>
       {showResults ? (
         <div>
-          <div className="overflow-x-auto bg-slate-600 rounded-lg shadow-md">
+          <div className="overflow-x-auto bg-green-600 rounded-lg shadow-md">
             <table className="min-w-full">
               <thead>
-                <tr className="bg-gray-200 text-gray-700 border-2 border-slate-400">
-                  <th className="flex flex-col lg:flex-row justify-between text-center py-3 px-4 lg:text-left bg-slate-800 text-slate-200">
-                    <div className="lg:flex lg:justify-center lg:items-center pb-2 lg:pb-0">
+                <tr className="bg-green-700 text-green-300 font-extrabold border-2 border-green-600 border-b-0">
+                  <th className="flex flex-col lg:flex-row justify-between text-center py-3 px-4 lg:text-left bg-green-800 text-green-200">
+                    <div className="lg:flex lg:justify-center lg:items-center pb-2 lg:pb-0 text-2xl font-extrabold text-green-400">
                       Program
                     </div>
                     <button
                       onClick={handleOnlyEnglish}
-                      className={`bg-slate-700 p-1 px-2 ${
-                        onlyEnglish ? "text-amber-800" : "text-amber-200"
-                      } hover:text-amber-400 active:text-amber-300 rounded-md`}
+                      className={`bg-green-900 p-2 ${
+                        onlyEnglish ? "text-green-600" : "text-green-300"
+                      } md:hover:text-green-500 active:text-green-500 rounded-md`}
                     >
                       Sadece İngilizce
                     </button>
                   </th>
                   <th className="p-2 lg:p-0">
                     <select
-                      className="text-center bg-slate-500 text-amber-300 hover:text-amber-200 hover:cursor-pointer shadow-sm rounded-md p-3"
+                      className="text-center bg-green-800 text-green-400 hover:text-green-200 hover:cursor-pointer shadow-sm rounded-md p-3"
                       onChange={(e) => handleSelection(e)}
                     >
-                      <option value="3" className="text-amber-300">
+                      <option value="3" className="text-green-200">
                         3. Yarıyıl
                       </option>
-                      <option value="5" className="text-amber-400">
+                      <option value="5" className="text-green-400">
                         5. Yarıyıl
                       </option>
                       <option
                         value="0"
-                        className="text-slate-200 text-center"
+                        className="text-zinc-200 text-center"
                         selected
                       >
                         Hepsi
@@ -151,23 +155,23 @@ export default function App({ version }: { version: string }) {
           </div>
         </div>
       ) : (
-        <div className="bg-slate-800 rounded-lg shadow-md p-4 flex flex-col items-center select-none">
+        <div className="bg-green-950 rounded-lg shadow-md p-4 flex flex-col items-center select-none">
           <h1 className="text-red-600 text-center text-5xl pb-2">Dikkat!</h1>
-          <p className="text-amber-200 text-center text-lg p-2">
+          <p className="text-green-300 text-left 2xl:text-lg text-sm p-4">
             Bu hesaplayıcı prototip aşamasındadır. Bazı veriler hatalı veya
             yanıltıcı olabilir, son kontrollerinizi kendiniz yapınız.
           </p>
-          <div className="grid grid-cols-2 select-none">
-            <p className="text-slate-300 text-center text-lg p-2">
+          <div className="flex select-none text-center">
+            <p className="text-zinc-300 pr-4 2xl:text-lg text-md">
               Geri bildirim için:{" "}
               <a href="mailto:batikankutluer@proton.me?subject=Sitenizde bir hata buldum.&body=Merhaba Batıkan, yazdığın sitede (itu-yatay.vercel.app) şöyle bir hata buldum:">
-                <button className="p-2 px-3 bg-slate-700 text-slate-300 hover:text-amber-400 text-sm rounded-xl">
+                <button className="p-2 bg-green-800 text-green-400 hover:text-green-300 text-sm rounded-md">
                   Mail için Tıkla!
                 </button>
               </a>
             </p>
             <div className="flex items-center">
-              <p className="p-2 select-none text-slate-400 shadow-sm rounded-md bg-slate-900 shadow-slate-900 text-sm">
+              <p className="p-2 select-none text-green-400 shadow-sm rounded-md bg-green-900 shadow-zinc-900 text-sm">
                 İTÜ Yatay Geçiş - GPA Hesaplama Aracı {version}
               </p>
             </div>
@@ -336,16 +340,16 @@ function RowTemplate({
 
   if (termSelection != "0") if (yilAdi != `${termSelection}.Yarıyıl`) return;
   return (
-    <tbody className="text-gray-600">
-      <tr className="bg-gray-100 border-2 border-slate-400">
-        <td className="text-gray-200 font-semibold bg-slate-600 p-2">
+    <tbody className="text-red-600">
+      <tr className="bg-red-100 border-2 border-red-700">
+        <td className="text-gray-200 font-semibold bg-red-800 p-2">
           {programAdi} {isIngilizce ? "(İngilizce)" : ""}
         </td>
-        <td className="text-gray-800 bg-slate-300 text-center">{yilAdi}</td>
-        <td className="text-gray-800 bg-slate-300 text-center">{kontenjan}</td>
-        <td className="text-gray-800 bg-slate-300 text-center">{yerlesen}</td>
-        <td className="text-gray-800 bg-slate-300 text-center">{maxGPA}</td>
-        <td className="text-gray-800 bg-slate-300 text-center">{minGPA}</td>
+        <td className="text-zinc-200 bg-red-600 text-center">{yilAdi}</td>
+        <td className="text-zinc-200 bg-red-600 text-center">{kontenjan}</td>
+        <td className="text-zinc-200 bg-red-600 text-center">{yerlesen}</td>
+        <td className="text-zinc-200 bg-red-600 text-center">{maxGPA}</td>
+        <td className="text-zinc-200 bg-red-600 text-center">{minGPA}</td>
       </tr>
     </tbody>
   );
