@@ -17,9 +17,36 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "İTÜ Yatay - GPA",
+  title: "İTÜ Yatay",
+  applicationName: "İTÜ Yatay",
   description:
     "İTÜ'de yatay geçiş için gereken GPA değerini hesaplamanıza yardımcı olan bir uygulamadır.",
+  keywords: [
+    "itü yatay",
+    "itü yatay geçiş",
+    "itü gpa",
+    "itü gpa ile yatay geçiş",
+    "itu yatay geçiş hesaplama",
+    "itu puan hesaplama",
+    "itü kurumiçi",
+    "itü",
+    "yatay geçiş",
+    "gpa",
+    "itu",
+  ],
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+    "max-video-preview": -1,
+    googleBot: "index, follow",
+  },
+  appleWebApp: {
+    title: "İTÜ Yatay",
+    statusBarStyle: "default",
+    capable: true,
+  },
 };
 
 export default function RootLayout({
@@ -28,7 +55,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="tr">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
